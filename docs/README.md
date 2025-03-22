@@ -1,7 +1,7 @@
 ## 🚀 Project Status
 
 - 🚧 **Under Development** 🚧
-- You can track the progress of the project in the [here](docs/progress.md)
+- You can track the progress of the project in the [here](progress.md)
 
 ## ✨ Features
 
