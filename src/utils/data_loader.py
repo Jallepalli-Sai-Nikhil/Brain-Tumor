@@ -4,6 +4,7 @@ from PIL import Image
 from src.utils.data_aug import apply_augmentation
 from src.utils.config import Config
 
+from io import BytesIO
 
 # * If GCS_DEPLOY is True, import Google Cloud Storage
 if Config.GCS_DEPLOY == True:
@@ -41,7 +42,7 @@ def load_dataset(data_dir=Config.DATASET_FOLDER,
 # * LOCAL DATA LOADER FUNCTION
 # * -------------------------------------------------------------------
 
-def load_dataset_from_loacl(data_dir, image_size, augment):
+def load_dataset_from_local(data_dir, image_size, augment):
     
     images = []
     labels = []
