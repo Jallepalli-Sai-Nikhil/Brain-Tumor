@@ -10,3 +10,10 @@
 - Learnings
 - ============
 - tuple & set of extension names
+
+#### 23-03-2025
+
+* Added app.py
+* Added routes/main_bp.py
+* added src/__init__.py
+* added src/templates/index.html
